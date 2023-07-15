@@ -1,4 +1,5 @@
 import React from 'react'
+import Home from './components/Home'
 import Header from './components/Header'
 import Projects from './components/Projects'
 import About from './components/About'
@@ -8,6 +9,7 @@ export default class App extends React.Component {
     return (
       <div>
         <div id="inicio"></div>
+        <Home />
         <Header />
         <div id="sobre"></div>
         <About />
