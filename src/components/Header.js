@@ -31,8 +31,16 @@ export default class Header extends React.Component {
 
         <header className="showcase">
           <div className="container showcase-inner">
-            <h1 className="name">Matheus Almeida</h1>
-            <h1 className="subTitle">Desenvolvimento Full Stack</h1>
+            <a
+              href="https://github.com/mthalmeida/froes"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://github.com/mthalmeida/froes/blob/main/public/images/logo_eraser.png?raw=true"
+                alt="Logotipo da Froes"
+              />
+            </a>
           </div>
         </header>
       </div>
