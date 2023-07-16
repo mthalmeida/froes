@@ -3,6 +3,7 @@ import Home from './components/Home'
 import Header from './components/Header'
 import Projects from './components/Projects'
 import About from './components/About'
+import Instagram from './components/Instagram'
 import Footer from './components/Footer'
 export default class App extends React.Component {
   render () {
@@ -14,7 +15,10 @@ export default class App extends React.Component {
         <div id="sobre"></div>
         <About />
         <div id="projetos"></div>
+
         <Projects />
+
+        <Instagram />
         <Footer />
       </div>
     )

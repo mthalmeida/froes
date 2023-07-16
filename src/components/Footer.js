@@ -4,7 +4,7 @@ import './Footer.css'
 export default class Footer extends React.Component {
   render () {
     return (
-      <footer className="site-footer">
+      <footer className="site-footer text-center">
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-sm-6 col-xs-12">
