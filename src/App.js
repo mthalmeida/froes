@@ -5,6 +5,8 @@ import Projects from './components/Projects'
 import About from './components/About'
 import Instagram from './components/Instagram'
 import Footer from './components/Footer'
+import Contato from './components/Contato'
+
 export default class App extends React.Component {
   render () {
     return (
@@ -19,6 +21,7 @@ export default class App extends React.Component {
         <Projects />
 
         <Instagram />
+        <Contato />
         <Footer />
       </div>
     )
