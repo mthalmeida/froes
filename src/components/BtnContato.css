@@ -1,9 +1,7 @@
 .fixed-button {
     position: fixed;
     bottom: 20px;
-    right: 20px;
-    background-color: #f93262;
-    border-radius: 50%;
+    right: 80px;
     width: 50px;
     height: 50px;
     display: flex;
@@ -13,7 +11,7 @@
   }
 
   .fixed-button img {
-    width: 30px;
-    height: 30px;
+    width: auto;
+    height: 60px;
     object-fit: cover;
   }
