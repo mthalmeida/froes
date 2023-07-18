@@ -1,0 +1,19 @@
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f93262;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .fixed-button img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }

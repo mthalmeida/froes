@@ -20,13 +20,23 @@ export default class Header extends React.Component {
           <div className="navbar-collapse justify-content-end">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
+                <a className="nav-link" href="#inicio">
+                  Início
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
+                <a className="nav-link" href="#sobre">
+                  Sobre
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#depoimentos">
+                  Depoimentos
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#fotos">
+                  Fotos e vídeos
                 </a>
               </li>
             </ul>

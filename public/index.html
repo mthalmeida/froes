@@ -21,16 +21,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet" />
+  
   </head>
 
   <body>
     <div id="root"></div>
+
     <script>
       window.addEventListener('load', function() {
-        var element = document.querySelector('a[title=""]'); // seleciona o elemento <a> com o atributo title vazio
-        element.style.display = 'none'; // oculta o elemento
+        var elfsightLink = document.querySelector('a[title=""][href*="elfsight.com"]');
+        if (elfsightLink) {
+          elfsightLink.style.display = 'none';
+        }
       });
-      </script>
+    </script>
       
   </body>
 

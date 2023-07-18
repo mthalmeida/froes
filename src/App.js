@@ -5,7 +5,6 @@ import Projects from './components/Projects'
 import About from './components/About'
 import Instagram from './components/Instagram'
 import Footer from './components/Footer'
-import Contato from './components/Contato'
 
 export default class App extends React.Component {
   render () {
@@ -16,12 +15,10 @@ export default class App extends React.Component {
         <Header />
         <div id="sobre"></div>
         <About />
-        <div id="projetos"></div>
-
+        <div id="depoimentos"></div>
         <Projects />
-
+        <div id="fotos"></div>
         <Instagram />
-        <Contato />
         <Footer />
       </div>
     )
