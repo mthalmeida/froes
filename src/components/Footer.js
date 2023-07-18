@@ -9,8 +9,11 @@ export default class Footer extends React.Component {
           <div className="row">
             <div>
               <p className="copyright-text">
-                Feito e atualizado constantemente usando HTML, CSS, JS, React,
-                suor e muito ❤!
+                © 2023 Todos os direitos reservados. Criado por{' '}
+                <a href="https://mthalmeida.github.io/portifolio/" style={{ color: 'white' }}>
+                  Matheus Almeida
+                </a>
+                .
               </p>
             </div>
 
